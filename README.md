@@ -29,5 +29,5 @@ ansible-playbook configure_keep.yaml -i hosts -K
 
 Playbooks.
 
-bootstrap_keep.yaml	-------- Installs & configures Keep-ecdsa and Keep-
-configure_keep.yaml	-------- Applies configuration changes and restarts Keep-ecdsa & Keep-core
+1) bootstrap_keep.yaml - Installs & configures Keep-ecdsa and Keep-core
+2) configure_keep.yaml - Applies configuration changes and restarts Keep-ecdsa & Keep-core
